@@ -53,3 +53,19 @@ footer {
     height: 300px;
     display: flex;
 }
+
+#balonfutbol:hover {
+    width: 350px;
+    height: 350px;
+}
+
+#camisetabetis {
+    width: 300px;
+    height: 300px;
+    display: flex;
+}
+
+#camisetabetis:hover {
+    width: 350px;
+    height: 350px;
+}
