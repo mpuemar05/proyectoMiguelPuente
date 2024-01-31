@@ -46,9 +46,14 @@ ul {
 footer {
     text-align: center;
     background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    margin: auto;
+    padding: 0%;
 }
 
-#balonfutbol {
+img {
     width: 300px;
     height: 300px;
     display: flex;
@@ -59,13 +64,44 @@ footer {
     height: 350px;
 }
 
-#camisetabetis {
-    width: 300px;
-    height: 300px;
-    display: flex;
-}
-
 #camisetabetis:hover {
     width: 350px;
     height: 350px;
+}
+
+#botasfutbol:hover {
+    width: 350px;
+    height: 350px;
+}
+
+#guantesfutbol:hover {
+    width: 350px;
+    height: 350px;
+}
+
+#futbol {
+    text-align: center ;
+    font-size: 50px;
+}
+
+div {
+    display: flex;
+    justify-content: space-around;
+}
+
+#descripciones {
+    background-color: black;
+    padding-right: 75px;
+}
+
+#descguantes {
+    padding-left: 30px;
+}
+
+#redessociales {
+    color: white;
+}
+
+#redessociales:visited {
+    color: white;
 }

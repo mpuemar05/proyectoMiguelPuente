@@ -1,0 +1,121 @@
+body {
+    background-image: url(https://www.2playbook.com/uploads/s1/18/94/8/bcn2_14_744x403.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    background: #55ABFA;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    flex-basis: 100%;
+    
+}
+
+li:hover {
+    background-color: #CC8AFA;
+}
+
+li a:hover {
+    color: white;
+}
+
+li a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+    padding: 3px;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+    padding: 0;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    margin: auto;
+    padding: 0%;
+}
+
+#balonbaloncesto {
+    width: 300px;
+    height: 300px;
+    display: flex;
+}
+
+#zapatosbaloncesto {
+    width: 300px;
+    height: 300px;
+    display: flex;
+}
+
+#zapatosbaloncesto:hover {
+    width: 350px;
+    height: 350px;
+}
+
+#balonbaloncesto:hover {
+    width: 350px;
+    height: 350px;
+}
+
+#camisetabaloncesto {
+    width: 300px;
+    height: 300px;
+    display: flex;
+}
+
+#camisetabaloncesto:hover {
+    width: 350px;
+    height: 350px;
+}
+
+#camisetaespaña {
+    width: 300px;
+    height: 300px;
+    display: flex;
+}
+
+#camisetaespaña:hover {
+    width: 350px;
+    height: 350px;
+}
+
+#baloncesto {
+    text-align: center ;
+    font-size: 50px;
+}
+
+div {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#descripciones {
+    background-color: black;
+}
+
+#redessociales {
+    color: white;
+}
+
+#redessociales:visited {
+    color: white;
+}
