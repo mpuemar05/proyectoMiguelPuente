@@ -10,7 +10,7 @@
     <header>
         <p><a href="https://twitter.com/" id="redessociales">Twitter</a> <a href="https://es-es.facebook.com/" id="redessociales">Facebook</a> <a href="https://www.instagram.com/" id="redessociales">Instagram</a></p>
     </header>
-    <h1>TIENDA DE DEPORTES</h1>
+    <h1>DESPORT</h1>
     <nav>
         <ul>
             <li><a href="futbol.html">FUTBOL</a></li>
@@ -20,15 +20,15 @@
         </ul>
     </nav>
     <h2 id="contacto">CONTACTO</h2>
-        <form id="contactar">
-            <p>Introduce tu nombre: <input type="text" id="nombre" name="nombre"></p>
-            <p>Introduce tus apellidos: <input type="text" id="nombre" name="apellidos"></p>
-            <p>Introduce tu email: <input type="text" id="nombre" name="email"></p>
-            <p>Escribe aquí tu mensaje: <textarea rows="5" cols="50" name="comentario" ></textarea></p>
-            <p><input type="reset" value="Enviar"></p>
-        </form>
+    <form id="contactar" action="enviado.html">
+        <p>Introduce tu nombre: <input type="text" id="nombre" name="nombre" required></p>
+        <p>Introduce tus apellidos: <input type="text" id="apellidos" name="apellidos" required></p>
+        <p>Introduce tu email: <input type="email" id="email" name="email" required></p>
+        <p>Escribe aquí tu mensaje: <textarea rows="5" cols="50" id="mensaje" name="mensaje" required></textarea></p>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
     <footer>
-        <p>Made by: Miguel Puente Martínez</p>
+        <p>Made by: Miguel Puente Martínez <a href="mailto:mpuemar05@gmail.com">mpuemar05@gmail.com</a></p>
     </footer>
 </body>
 </html>

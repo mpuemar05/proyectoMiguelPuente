@@ -53,28 +53,6 @@ footer {
     padding: 0%;
 }
 
-#balonfutbol {
-    width: 300px;
-    height: 300px;
-    display: flex;
-}
-
-#balonfutbol:hover {
-    width: 350px;
-    height: 350px;
-}
-
-#camisetabetis {
-    width: 300px;
-    height: 300px;
-    display: flex;
-}
-
-#camisetabetis:hover {
-    width: 350px;
-    height: 350px;
-}
-
 #contacto {
     text-align: center ;
     font-size: 50px;
@@ -93,4 +71,17 @@ footer {
 
 #redessociales:visited {
     color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    div {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
 }
