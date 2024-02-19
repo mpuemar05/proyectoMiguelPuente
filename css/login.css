@@ -1,0 +1,90 @@
+body {
+    background-image: url(https://www.2playbook.com/uploads/s1/18/94/8/bcn2_14_744x403.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    background: #55ABFA;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    flex-basis: 100%;
+    
+}
+
+li:hover {
+    background-color: #CC8AFA;
+}
+
+li a:hover {
+    color: white;
+}
+
+li a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+    padding: 3px;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+    padding: 0;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    margin: auto;
+    padding: 0%;
+}
+
+#iniciosesion {
+    text-align: center ;
+    font-size: 50px;
+}
+
+#descripcionempresa {
+    background-color: black;
+    width: 80%;
+    margin: 120px;
+    padding: 15px;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+#redessociales {
+    color: white;
+}
+
+#redessociales:visited {
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    div {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+}
